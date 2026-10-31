@@ -1,0 +1,6 @@
+{
+  "name": "Tina新星防御 - Tina Nova Defense",
+  "description": "精美流畅的经典导弹防御塔防游戏，中英文双语版。保卫城市与炮台，拦截从天而降的敌方火箭！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

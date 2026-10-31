@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Orbitron', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-arcade {
+  font-family: var(--font-mono);
+}
+
+/* Custom scrollbars and touch handling */
+canvas {
+  touch-action: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
